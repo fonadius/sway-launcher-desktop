@@ -19,6 +19,8 @@ DIRS=(
   /usr/share/applications
   "$HOME/.local/share/applications"
   /usr/local/share/applications
+  "$HOME/.local/share/flatpak/exports/share/applications"
+  /var/lib/flatpak/exports/share/applications
 )
 
 function describe() {
